@@ -1,1 +1,15 @@
 /* 在此撰寫此專案的CSS Style */
+
+
+.product {
+    width: 600px;
+    /* background-color: royalblue; */
+    /* 陰影 box , shadow : 左右偏移 上下偏移 模糊值 顏色 */
+    /* rgba alpha = 1 不透明 / 0.2 ; 色光混合原則 / 色料混何原則 */
+    box-shadow: 0 10px 0 rgba(1,1,1,0.2)
+}
+
+.product>img {
+    width: 100%;    /* 以.product類別的寬度為基準，設為100% */
+
+}
